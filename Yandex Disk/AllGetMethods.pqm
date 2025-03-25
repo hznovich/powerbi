@@ -171,6 +171,7 @@ let
     object = type text,
     number = type number,
     any = type any
+    array = type list
   ],
 
   // поля примитивных типов
