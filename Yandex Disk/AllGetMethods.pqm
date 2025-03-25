@@ -140,7 +140,7 @@ let
 
   // забираю документацию по API
   // помещает ответ от API в значение типа binary
-  Source = Web.Contents( "https://cloud-api.yandex.net/v1/disk/resources" ),
+  Source = Web.Contents( "https://cloud-api.yandex.net/v1/schema/resources/v1/disk/resources" ),
   
   // можно скачать ответ и сохранить в текстовое значение, чтобы не запрашивать каждый раз
   // сейчас это не делаю
