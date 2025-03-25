@@ -18,7 +18,7 @@ let
     Expression.Evaluate(
       Text.FromBinary(
         Binary.Buffer( 
-          Web.Contents( "https://raw.githubusercontent.com/meta110/powerbi/master/common/functions/", [
+          Web.Contents( "https://raw.githubusercontent.com/hznovich/powerbi/master/common/functions/", [
             RelativePath = name & ".pqm"
             ] )
         ) 
